@@ -1,0 +1,105 @@
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.paws {
+    font-family: 'Rubik Beastly', cursive;
+    color: #ffffff;
+}
+
+h1.paws{
+    font-size: 3em;;
+}
+
+footer{
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.card-img-right {
+    width: 50%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.header-banner { overflow: hidden; width: 100%; }
+
+.hero, .hero-image {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.hero-image {
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+    .hero-image img {
+    width: 100%; }
+
+.hero-image{
+    position: relative;
+}
+.main-banner {
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    width: 100%;
+    text-align: left;
+}
+.main-banner .section.center {
+    position: relative;
+    left: auto;
+    right: auto;
+    width: 100%;
+    transform: translate(0, 0);
+}
+div.header-text pre {
+    /*position: absolute;*/
+    /*padding-top: 15vh;*/
+    padding-bottom: 0 !important;
+    color: #ffffff;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #cfd3f8;;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .description-box {
+    height: 52px;
+    }
+    .description-box p {
+    font-size: 14px;
+    }
+   }
+   
+   @media screen and (max-width: 991px) {
+    .blogGrid .blog-inner {
+    margin-bottom: 30px;
+    }
+    .description-box p {
+    font-size: 15px;
+    }
+   }
+   
+   @media screen and (max-width: 767px) {
+    .blogGrid .blog-inner .imgHolder img {
+    width: 100%;
+    }
+    .blog-wrapper img {
+    max-width: 100%;
+    }
+   }
+   
+   @media screen and (max-width: 480px) {
+    .blog-filter .items {
+    text-align: left;
+    }
+    #pagingTotal p {
+    padding-top: 0;
+    }
+   }
